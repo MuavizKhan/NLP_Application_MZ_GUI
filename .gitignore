@@ -1,0 +1,17 @@
+# Ignore API Keys & Local Environment Variables
+api_security.env
+.env
+
+# Ignore local databases
+*.db
+*.sqlite3
+
+# Ignore PyCharm internal system files
+.idea/
+__pycache__/
+*.pyc
+
+# Ignore local build artifacts
+build/
+dist/
+*.spec
