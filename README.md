@@ -1,51 +1,8 @@
-🚀 NLP-Application-MZ-GUI
-A high-performance, multi-threaded NLP workstation built for competitive intelligence and automated lead enrichment. This application leverages Gemini 2.5 Flash for advanced content analysis, utilizing custom JSON schemas to extract actionable insights from unstructured data.
-
-🌟 Key Features
-Multi-Threaded Architecture: Designed to handle heavy-duty NLP tasks without freezing the UI.
-
-Gemini-Powered Intelligence: Orchestrates LLM calls to analyze content, map buying committees, and enrich enterprise leads.
-
-Structured JSON Output: Uses custom schema enforcement to ensure data integrity for automated reconciliation.
-
-Extensible Pipeline: Built with a modular 8-module pipeline architecture for custom data processing.
-
-Secure Config Management: Implements environment-based security to protect sensitive API keys.
-
-🛠️ Tech Stack
-Language: Python 3.14
-
-Core GUI: Tkinter (Customized Workstation Layout)
-
-AI/LLM: Google Gemini 2.5 Flash
-
-Concurrency: Python Threading for non-blocking UI
-
-Data Handling: Pandas, JSON-Schema enforcement
-
-📥 Getting Started
-This application is built as a standalone desktop workstation.
-
-Download: [Insert Link to your Google Drive/Executable here]
-
-Setup: Ensure you have your api_security.env file in the same directory as the executable.
-
-Run: Simply double-click app.exe to launch the workstation.
-
-🏗️ Project Structure
-Plaintext
-NLP_Application_MZ_GUI/
-├── app.py              # Main Orchestration Launch Script
-├── core_api/           # Gemini API & Business Logic Connectors
-├── gui/                # Modular UI Pipeline Views
-├── database/           # Local Data Caching & JSON Storage
-├── resources/          # UI Assets & Branding
-└── settings.cfg        # Application Configuration
-📈 Engineering Highlights
-This project was developed to solve the "last mile" of sales intelligence: transforming massive amounts of unstructured data into high-intent lead enrichment data. By utilizing agentic workflows, it reduces manual research time from hours to seconds.
-
-👤 About the Developer
-Muaviz Maroof Khan | GTM Engineer at Clear
-Passionate about building scalable AI workflows and tax-tech automation.
-
-LinkedIn | GitHub
+🚀 NLP-Application-MZ-GUIA high-performance, multi-threaded NLP workstation built for competitive intelligence and automated lead enrichment.This enterprise-grade application leverages Google Gemini 2.5 Flash for advanced content analysis, utilizing strict custom JSON schemas to extract actionable insights from raw, unstructured data.🌟 Key Features🧵 Multi-Threaded Architecture – Engine designed to offload heavy-duty NLP tasks to background workers, ensuring a completely fluid, non-blocking UI.🤖 Gemini-Powered Agentic Workflows – Orchestrates complex LLM calls to analyze prospect content, map buying committees, and enrich enterprise leads with deep intent data.📊 Structured JSON Extraction – Enforces rigid custom schemas to guarantee predictable data shapes, making it perfect for automated lead enrichment and data ingestion pipelines.🧩 Extensible 8-Module Pipeline – Built with a highly modular architecture, making it easy to swap, extend, or add custom data processing steps.🔒 Zero-Leak Security Management – Implements robust, environment-based security configs (.gitignore + .env injection) to ensure sensitive API credentials never touch public repositories.🛠️ Tech StackComponentTechnologyRole in ProjectLanguagePython 3.14Core application runtime.Core GUITkinterCustomized, responsive desktop workstation layout.AI EngineGoogle Gemini 2.5 FlashAdvanced semantic parsing, reasoning, and JSON generation.ConcurrencyPython ThreadingBackground worker management for real-time async UI updates.Data LayersPandas / JSON-SchemaRobust local caching, structural enforcement, and data normalization.🏗️ Project StructurePlaintextNLP_Application_MZ_GUI/
+├── app.py                  # Main Orchestration Launch Script
+├── core_api/               # Gemini API & Business Logic Connectors
+├── gui/                    # Modular UI Pipeline Views
+├── database/               # Local Data Caching & JSON Storage
+├── resources/              # UI Assets & Branding
+└── settings.cfg            # Application Configuration Settings
+📥 Getting Started💡 Note: This application is compiled as a standalone desktop workstation. No Python environment setup required!Download: Grab the packaged binary from the [Google Drive Executable Link].Setup: Ensure your api_security.env file is placed in the same exact directory as the executable.Run: Simply double-click app.exe to launch the workstation interface.📈 Engineering HighlightsThis project was intentionally engineered to bridge the gap in enterprise sales development—moving away from generic data dumps to high-intent lead scoring. By migrating manual research into programmatic agentic workflows, it successfully compresses hours of competitive intelligence mapping down to a matter of seconds.👤 About the DeveloperMuaviz Maroof KhanGTM Engineer at ClearPassionate about building scalable AI workflows, Retrieval-Augmented Generation (RAG) ecosystems, and tax-tech automation pipelines.
