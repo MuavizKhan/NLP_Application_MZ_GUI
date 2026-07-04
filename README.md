@@ -1,4 +1,4 @@
-# 🚀 NLP-Application-MZ-GUI
+# 🤖 NLP-Application-MZ-GUI
 
 > **A high-performance, multi-threaded NLP workstation built for competitive intelligence and automated lead enrichment.**
 
